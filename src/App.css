@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'PR';
+  src: local('PR'), url(./assets/font/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PSBI';
+  src: local('PSBI'), url(./assets/font/Poppins/Poppins-SemiBoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PSB';
+  src: local('PSB'), url(./assets/font/Poppins/Poppins-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PB';
+  src: local('PB'), url(./assets/font/Poppins/Poppins-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PBI';
+  src: local('PBI'), url(./assets/font/Poppins/Poppins-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PEB';
+  src: local('PEB'), url(./assets/font/Poppins/Poppins-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PM';
+  src: local('PM'), url(./assets/font/Poppins/Poppins-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PMI';
+  src: local('PMI'), url(./assets/font/Poppins/Poppins-MediumItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PI';
+  src: local('PI'), url(./assets/font/Poppins/Poppins-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PLI';
+  src: local('PLI'), url(./assets/font/Poppins/Poppins-LightItalic.ttf) format('truetype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2,h3,h4,h5,h6, p, a {
+  font-family: 'PR';
+  line-height: 1.4;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a{
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
