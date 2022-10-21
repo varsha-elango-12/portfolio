@@ -55,6 +55,9 @@ export const MJBody = styled(commonGrid)`
     &.pli {
       font-family: "PLI";
     }
+    a {
+      color: inherit;
+    }
   }
 
   &.hl-row {

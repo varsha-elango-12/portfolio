@@ -19,6 +19,9 @@ export const TEXT_COLOR = {
 export const WHITE = {
   1000: "#ffffff",
 };
+export const BLACK = {
+  1000: "#000",
+};
 
 export const SECONDARY = {
   1000: "#864747",

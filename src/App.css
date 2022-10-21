@@ -29,6 +29,10 @@
   src: local('PEB'), url(./assets/font/Poppins/Poppins-ExtraBold.ttf) format('truetype');
 }
 @font-face {
+  font-family: 'PEBI';
+  src: local('PEBI'), url(./assets/font/Poppins/Poppins-ExtraBoldItalic.ttf) format('truetype');
+}
+@font-face {
   font-family: 'PM';
   src: local('PM'), url(./assets/font/Poppins/Poppins-Medium.ttf) format('truetype');
 }

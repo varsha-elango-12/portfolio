@@ -1,5 +1,10 @@
 import styled from "styled-components";
 import { COLORS } from "../../assets/styles/constant";
+import { motion } from "framer-motion";
+
+export const ImageAnimContainer = styled(motion.div)`
+  overflow: hidden;
+`;
 
 export const ProjectsContainer = styled.div`
   padding: 7% 16% 5%;
@@ -29,6 +34,9 @@ export const FlexRowContainer = styled.div`
   &.pb-0 {
     padding-bottom: 0;
   }
+  &.pt-0 {
+    padding-top: 0;
+  }
   &.p-0 {
     padding: 0;
   }
@@ -57,6 +65,7 @@ export const ProjTitle = styled.h1`
   font-family: "PEB";
   flex: 1;
   padding: 0 1% 0 0;
+  line-height: 1;
 `;
 export const TitleTwo = styled.h2`
   font-size: clamp(13px, 1.15vw, 22px);
@@ -86,7 +95,7 @@ export const ProjDesc = styled.p`
   font-size: clamp(10px, 0.84vw, 24px);
   color: ${COLORS.TEXT_COLOR[500]};
   font-family: "PM";
-  margin-bottom: 3%;
+  margin-bottom: 4%;
   &.sbi-font {
     font-family: "PSBI";
   }
@@ -182,7 +191,7 @@ export const MediumImg = styled.img`
   cursor: pointer;
   transition: all 0.3s ease;
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 `;
 export const MediumImgTop = styled.img`
@@ -192,7 +201,7 @@ export const MediumImgTop = styled.img`
   // cursor: pointer;
   transition: all 0.3s ease;
   // &:hover {
-  //   transform: scale(1.1);
+  //   transform: scale(1.05);
   // }
   @media (max-width: 800px) {
     width: 100%;
@@ -214,7 +223,7 @@ export const ListImg = styled.img`
   cursor: pointer;
   transition: all 0.3s ease;
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   &.bottom-img{
     height: auto;
@@ -345,6 +354,10 @@ export const ImgContainerTwo = styled.div`
         grid-column: 1/-1;
       }
     }
+  }
+  &.p-0 {
+    padding: 0;
+    margin: 0;
   }
   &.grid-2-1-1 {
     grid-template-columns: 2fr 1fr 1fr;

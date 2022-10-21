@@ -5,6 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 import { PROJECTS } from "../../screens/const";
 import AnimatedTxt from "../animatedTxt";
 import {
+  PEBI,
   ProjNavBtn,
   ProjNavCont,
   SideBottomImg,
@@ -74,17 +75,19 @@ function SideMenu() {
               data-aos-duration="800"
               data-aos-anchor-placement="top-bottom"
             >
-              I explore integrating design & theatre arts to consciously create
-              experiences.
+              I explore coalescing <PEBI>design and theatre arts</PEBI> in
+              creating mindful user experiences.
             </SideBottomText>
           )}
           {locArr[1] === "performative-design" && (
-            <SideBottomImg
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-anchor-placement="top-bottom"
-              src={FACE_ICONS[5]}
-            />
+            <Link to="/performative-design">
+              <SideBottomImg
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-anchor-placement="top-bottom"
+                src={FACE_ICONS[5]}
+              />
+            </Link>
           )}
           {locArr.length === 2 && locArr[1] === "performative-design" && (
             <SideBottomText
@@ -93,8 +96,9 @@ function SideMenu() {
               data-aos-delay="200"
               data-aos-anchor-placement="top-bottom"
             >
-              Theatre arts has always been my passion. I enjoy tying
-              performative elements to my design solutions.
+              Theatre arts has always been my big passion. I enjoy tying
+              <PEBI>performative</PEBI> elements to my <PEBI>design</PEBI>{" "}
+              solutions.
             </SideBottomText>
           )}
           {locArr.length === 3 && locArr[1] === "performative-design" && (
@@ -120,12 +124,15 @@ function SideMenu() {
 
           {/* ux design */}
           {locArr[1] === "user-experience-design" && (
-            <SideBottomImg
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-anchor-placement="top-bottom"
-              src={GIRL_ICONS[5]}
-            />
+            <Link to="/user-experience-design">
+              <SideBottomImg
+                className="grl-img"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-anchor-placement="top-bottom"
+                src={GIRL_ICONS[5]}
+              />
+            </Link>
           )}
           {locArr.length === 2 && locArr[1] === "user-experience-design" && (
             <SideBottomText
@@ -134,9 +141,8 @@ function SideMenu() {
               data-aos-anchor-placement="top-bottom"
               data-aos-delay="200"
             >
-              I've always cared even for the little events in our everyday life
-              to make it a memorable experience, both personally and
-              professionally.
+              I see <PEBI>user experience design</PEBI> as an opportunity to
+              enliven even the simplest interaction in a day for a user.
             </SideBottomText>
           )}
           {locArr.length === 3 && locArr[1] === "user-experience-design" && (

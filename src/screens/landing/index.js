@@ -12,6 +12,7 @@ import "./style.css";
 import {
   FACE_ICONS,
   GIRL_ICONS,
+  MAIL_ICONS,
   STAR_ICONS,
 } from "../../assets/images/constant";
 import AnimatedTxt from "../../components/animatedTxt";
@@ -143,11 +144,12 @@ function Landing(props) {
         <ImgContainer>
           <Link to="/connect" className="connect-link">
             <MailImg
-              src={
-                currentMailIcon
-                  ? require("../../assets/images/active-mail.png")
-                  : require("../../assets/images/mail.png")
-              }
+              src={currentMailIcon ? MAIL_ICONS[5] : MAIL_ICONS[imgIndex]}
+              // src={
+              //   currentMailIcon
+              //     ? require("../../assets/images/active-mail.png")
+              //     : require("../../assets/images/mail.png")
+              // }
               onMouseEnter={() => {
                 setcurrentMailIcon(true);
               }}

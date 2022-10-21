@@ -45,9 +45,9 @@ export const WaveAnim = keyframes`
 export const MailImg = styled(StarImg)`
   height: 40%;
   margin: auto 10% 10% auto;
-  animation-name: ${WaveAnim};
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  // animation-name: ${WaveAnim};
+  // animation-duration: 3s;
+  // animation-iteration-count: infinite;
   transition: all ease 0.3s;
   &:hover {
     animation: none;

@@ -75,7 +75,11 @@ function JustNameless() {
           <TitleTwo data-aos="fade-up" data-aos-delay="300">
             Process
           </TitleTwo>
-          <FlexRowContainer data-aos="fade-up" data-aos-delay="500">
+          <FlexRowContainer
+            className="pb-0"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
             <FlexOne>
               <TitleThree>Brainstorming words</TitleThree>
               <SubTitleThree>
@@ -94,7 +98,7 @@ function JustNameless() {
           </FlexRowContainer>
 
           <FlexRowContainer
-            style={{ paddingTop: 0 }}
+            className="pt-0"
             data-aos="fade-up"
             data-aos-delay="700"
           >
@@ -181,7 +185,7 @@ function JustNameless() {
             <FlexOne></FlexOne>
           </FlexRowContainer>
 
-          <FlexRowContainer data-aos="fade-up">
+          <FlexRowContainer className="pb-0" data-aos="fade-up">
             <FlexOne>
               <TitleThree>Narrowing down to one</TitleThree>
               <SubTitleThree>To zoom in</SubTitleThree>
@@ -207,7 +211,7 @@ function JustNameless() {
             </FlexTwo>
             <FlexOne></FlexOne>
           </FlexRowContainer>
-          <FlexRowContainer style={{ paddingTop: 0 }} data-aos="fade-up">
+          <FlexRowContainer className="pt-0" data-aos="fade-up">
             <FlexOne></FlexOne>
             <FlexThree>
               <ImgContainer className="jn-grid-2">
@@ -241,7 +245,7 @@ function JustNameless() {
             </FlexThree>
           </FlexRowContainer>
 
-          <FlexRowContainer data-aos="fade-up">
+          <FlexRowContainer className="pb-0" data-aos="fade-up">
             <FlexOne>
               <TitleThree>Weekly presentations</TitleThree>
               <SubTitleThree>
@@ -263,7 +267,7 @@ function JustNameless() {
             <FlexOne></FlexOne>
           </FlexRowContainer>
 
-          <FlexRowContainer className="p-0" data-aos="fade-up">
+          <FlexRowContainer className="pt-0" data-aos="fade-up">
             <FlexOne></FlexOne>
             <FlexThree>
               <VideoFrame
@@ -276,7 +280,7 @@ function JustNameless() {
             </FlexThree>
           </FlexRowContainer>
 
-          <FlexRowContainer data-aos="fade-up">
+          <FlexRowContainer className="pb-0" data-aos="fade-up">
             <FlexOne>
               <TitleThree>Prototyping ideas</TitleThree>
               <SubTitleThree>Trial and error</SubTitleThree>
@@ -291,7 +295,7 @@ function JustNameless() {
             </FlexTwo>
             <FlexOne></FlexOne>
           </FlexRowContainer>
-          <FlexRowContainer style={{ paddingTop: 0 }} data-aos="fade-up">
+          <FlexRowContainer className="p-0" data-aos="fade-up">
             <FlexOne></FlexOne>
             <FlexThree>
               <ImgContainer className="jn-grid-3">
@@ -320,7 +324,7 @@ function JustNameless() {
               </SubDesc>
             </FlexThree>
           </FlexRowContainer>
-          <FlexRowContainer data-aos="fade-up">
+          <FlexRowContainer className="pt-0" data-aos="fade-up">
             <FlexOne></FlexOne>
             <FlexTwo>
               <ProjDesc>
@@ -347,7 +351,7 @@ function JustNameless() {
             <FlexOne></FlexOne>
           </FlexRowContainer>
 
-          <FlexRowContainer data-aos="fade-up">
+          <FlexRowContainer className="pb-0" data-aos="fade-up">
             <FlexOne>
               <TitleThree>Conceptualisation</TitleThree>
               <SubTitleThree>Finalising with one</SubTitleThree>
@@ -362,7 +366,7 @@ function JustNameless() {
             </FlexTwo>
             <FlexOne></FlexOne>
           </FlexRowContainer>
-          <FlexRowContainer data-aos="fade-up">
+          <FlexRowContainer className="pt-0" data-aos="fade-up">
             <FlexOne></FlexOne>
             <FlexThree>
               <div className="w-100">
@@ -469,7 +473,7 @@ function JustNameless() {
             </FlexThree>
           </FlexRowContainer>
           {/*  */}
-          <FlexRowContainer data-aos="fade-up">
+          <FlexRowContainer className="pb-0" data-aos="fade-up">
             <FlexOne>
               <TitleThree>Business Origami</TitleThree>
               <SubTitleThree>
@@ -486,7 +490,7 @@ function JustNameless() {
             </FlexTwo>
             <FlexOne></FlexOne>
           </FlexRowContainer>
-          <FlexRowContainer data-aos="fade-up">
+          <FlexRowContainer className="pt-0" data-aos="fade-up">
             <FlexOne></FlexOne>
             <FlexThree>
               <ImgContainer className="jn-grid-4">
