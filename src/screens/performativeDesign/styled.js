@@ -296,6 +296,9 @@ export const ImgContainer = styled.div`
   &.jn-grid-8 {
     grid-template-columns: 1fr 1fr;
   }
+  &.gr-gap {
+    grid-row-gap: 17px;
+  }
   &.grid-1-2-1 {
     grid-template-columns: 1fr 2fr 1fr;
   }

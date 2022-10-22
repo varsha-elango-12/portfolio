@@ -24,7 +24,7 @@ export const ConnectMain = styled.div`
     a {
       &.a1 {
         text-decoration: underline;
-        font-family: "PBI";
+        font-family: "PSBI";
       }
       &.a2 {
         font-family: "PI";
@@ -98,6 +98,7 @@ export const ConnectMain = styled.div`
 `;
 export const ConnectFR = styled.div`
   padding-right: 100px;
+  padding-bottom: 80px;
   @media (max-width: 800px) {
     padding: 0;
   }

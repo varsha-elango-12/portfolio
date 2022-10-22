@@ -46,7 +46,7 @@ function JustNameless() {
         <SingleProjectContainer>
           <FlexRowContainer data-aos="fade-up">
             <ProjTitle style={{ color: COLORS.TEXT_COLOR[400] }}>
-              1. Just Nameless
+              1. Sharing Codes
             </ProjTitle>
             <FlexThree className="top-cont">
               <FlexCol>

@@ -181,7 +181,7 @@ function FormlessEmotion() {
             </FlexTwo>
             <FlexOne></FlexOne>
           </FlexRowContainer>
-          <FlexRowContainer className="p-0" data-aos="fade-up">
+          <FlexRowContainer className="pt-0" data-aos="fade-up">
             <FlexOne></FlexOne>
             <FlexThree>
               <ImgContainer className="fe-grid-1">

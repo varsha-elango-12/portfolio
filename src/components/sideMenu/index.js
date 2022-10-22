@@ -82,6 +82,7 @@ function SideMenu() {
           {locArr[1] === "performative-design" && (
             <Link to="/performative-design">
               <SideBottomImg
+                className="hcl"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-anchor-placement="top-bottom"
@@ -97,7 +98,7 @@ function SideMenu() {
               data-aos-anchor-placement="top-bottom"
             >
               Theatre arts has always been my big passion. I enjoy tying
-              <PEBI>performative</PEBI> elements to my <PEBI>design</PEBI>{" "}
+              <PEBI> performative</PEBI> elements to my <PEBI>design</PEBI>{" "}
               solutions.
             </SideBottomText>
           )}
@@ -126,7 +127,7 @@ function SideMenu() {
           {locArr[1] === "user-experience-design" && (
             <Link to="/user-experience-design">
               <SideBottomImg
-                className="grl-img"
+                className="grl-img hcl"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-anchor-placement="top-bottom"
@@ -181,8 +182,8 @@ function SideMenu() {
               data-aos-anchor-placement="top-bottom"
               data-aos-delay="200"
             >
-              I cherish the process much bigger than the output. It's where I
-              see my learning and growth.
+              I cherish the <PEBI>process</PEBI> much bigger than the output.
+              It's where I see my <PEBI>learning and growth.</PEBI>
             </SideBottomText>
           )}
           {/* connect */}
@@ -201,8 +202,8 @@ function SideMenu() {
               data-aos-anchor-placement="top-bottom"
               data-aos-delay="200"
             >
-              I am a people's person, and believe in networking as a medium to
-              exchange knowledge.
+              I am a people's person, and believe in <PEBI>networking</PEBI> as
+              a medium to exchange knowledge.
             </SideBottomText>
           )}
         </SideCenterContainer>

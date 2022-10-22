@@ -715,7 +715,7 @@ function YellowJuice() {
           <FlexRowContainer className="pt-0" data-aos="fade-up">
             <FlexOne></FlexOne>
             <FlexThree>
-              <ImgContainer className="jn-grid-8">
+              <ImgContainer className="jn-grid-8 gr-gap">
                 {Array(6)
                   .fill("")
                   .map((x, i) => {
@@ -746,7 +746,6 @@ function YellowJuice() {
                     );
                   })}
               </ImgContainer>
-              <SubDesc>Around Southwark police station</SubDesc>
             </FlexThree>
           </FlexRowContainer>
 
@@ -795,7 +794,7 @@ function YellowJuice() {
             <FlexOne></FlexOne>
           </FlexRowContainer>
 
-          <FlexRowContainer data-aos="fade-up">
+          <FlexRowContainer className="pt-0" data-aos="fade-up">
             {/* <FlexOne></FlexOne> */}
             <FlexHalf></FlexHalf>
             <FlexThree className="p-0 w-100">
@@ -821,7 +820,7 @@ function YellowJuice() {
             </FlexThree>
           </FlexRowContainer>
 
-          <FlexRowContainer className="pb-0" data-aos="fade-up">
+          <FlexRowContainer className="p-0" data-aos="fade-up">
             <FlexThree className="p-0 w-100">
               <ImgContainer className="grid-1-1-1-105">
                 {Array(4)
@@ -859,7 +858,7 @@ function YellowJuice() {
             </FlexTwo>
             <FlexOne></FlexOne>
           </FlexRowContainer>
-          <FlexRowContainer className="p-0" data-aos="fade-up">
+          <FlexRowContainer className="pt-0" data-aos="fade-up">
             <FlexOne></FlexOne>
             <FlexThree>
               <ImgContainer className="grid-1-2-1-1">

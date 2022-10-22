@@ -23,10 +23,10 @@ export const PROJECTS = {
   ],
   "user-experience-design": [
     {
-      title: "Just Nameless",
+      title: "Sharing Codes",
       desc: "Design a way to take advantage of other peoples’ digital transactions without them knowing.",
       imgSrc: require("../assets/images/ProjectTypes/justNameless/justNameless.png"),
-      to: "just-nameless",
+      to: "sharing-codes",
     },
     {
       title: "The Yellow Juice",

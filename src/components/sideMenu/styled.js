@@ -58,9 +58,10 @@ export const SideBottomText = styled.p`
   font-family: "PSBI";
   @media (max-width: 800px) {
     width: 60%;
+    font-size: clamp(8px, 1.1vw, 24px);
   }
 `;
-export const PEBI = styled.p`
+export const PEBI = styled.span`
   font-family: "PEBI";
 `;
 
@@ -68,6 +69,14 @@ export const SideBottomImg = styled.img`
   width: 5.45vw;
   object-fit: scale-down;
   margin-bottom: 58px;
+  &.hcl {
+    transform: scale(1);
+    transition: all ease 0.3s !important;
+
+    &:hover {
+      transform: scale(1.06) !important;
+    }
+  }
   &.grl-img {
     margin-bottom: 38px;
   }
@@ -99,6 +108,7 @@ export const ProjNavBtn = styled.span`
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: clamp(10px, 1vw, 24px);
+  font-family: "PB";
   &:hover {
     opacity: 0.7 !important;
   }

@@ -263,7 +263,7 @@ function ReincarnationOfViolet() {
             <FlexOne></FlexOne>
           </FlexRowContainer>
           {/*  */}
-          <ImgContainerTwo className="p-0" data-aos="fade-up">
+          <ImgContainerTwo className="pt-0" data-aos="fade-up">
             {Array(6)
               .fill("")
               .map((x, i) => {

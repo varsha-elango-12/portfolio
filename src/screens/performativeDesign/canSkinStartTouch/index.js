@@ -99,8 +99,8 @@ function CanSkinStarveForATouch() {
           </FlexRowContainer>
           <FlexRowContainer className="pb-0" data-aos="fade-up">
             <FlexOne>
-              <TitleThree>Exhibition </TitleThree>
-              <SubTitleThree>visit Inspirations</SubTitleThree>
+              <TitleThree>Exhibition visit</TitleThree>
+              <SubTitleThree>Inspirations</SubTitleThree>
             </FlexOne>
             <FlexTwo>
               <ProjDesc>

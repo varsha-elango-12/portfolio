@@ -17,9 +17,8 @@
 }
 .menu-four-txt{
     position: absolute;
-    top: 25%;
-    left: 61%;
-
+    top: 33%;
+    left: 65%;
 }
 
 @media only  screen and (max-width:800px) {
