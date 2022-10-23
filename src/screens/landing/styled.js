@@ -30,7 +30,7 @@ export const GirlImg = styled(MenuImg)`
   height: 70%;
   @media (max-width: 800px) {
     margin: auto;
-    height: 14vh;
+    height: 13vh;
   }
 `;
 export const StarImg = styled(MenuImg)`
