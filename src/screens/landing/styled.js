@@ -4,6 +4,10 @@ import { COLORS } from "../../assets/styles/constant";
 export const LandingContainer = styled.div`
   padding: 5%;
   background-color: ${COLORS.PRIMARY[1000]};
+  @media (max-width: 800px) {
+    width: 100%;
+    margin: auto;
+  }
 `;
 export const LRowContainer = styled.div`
   display: flex;
@@ -18,7 +22,7 @@ export const MenuImg = styled.img`
   cursor: pointer;
   @media (max-width: 800px) {
     margin: auto;
-    height: 8vh;
+    height: 16vh;
   }
 `;
 
@@ -26,7 +30,7 @@ export const GirlImg = styled(MenuImg)`
   height: 70%;
   @media (max-width: 800px) {
     margin: auto;
-    height: 8vh;
+    height: 14vh;
   }
 `;
 export const StarImg = styled(MenuImg)`
@@ -54,7 +58,7 @@ export const MailImg = styled(StarImg)`
   }
   @media (max-width: 800px) {
     margin: auto;
-    height: 8vh;
+    height: 7vh;
   }
 `;
 
@@ -73,6 +77,7 @@ export const ImgContainer = styled.div`
     height: 100%;
     display: flex;
   }
+
   @media (max-width: 800px) {
     width: 100%;
     height: 20vh;
@@ -86,6 +91,34 @@ export const ImgContainer = styled.div`
     .connect-link {
       margin: auto;
       flex-direction: column;
+    }
+    &.menu-two-img {
+      height: auto;
+    }
+    &.menu-three-img {
+      margin-top: -35px;
+      height: auto;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+    &.menu-four-img {
+      margin-top: -12px;
+      height: auto;
+    }
+    .menu-one {
+      margin-right: auto;
+      margin-left: 20px;
+    }
+    .menu-two {
+      margin-left: auto;
+      margin-right: 20px;
+      margin-top: -30px;
+    }
+    .menu-three {
+      margin: 0 auto 0 40px;
+    }
+    .menu-four {
+      margin: -21px 55px 0 auto;
     }
   }
 `;

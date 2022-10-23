@@ -66,6 +66,9 @@ export const ProjTitle = styled.h1`
   flex: 1;
   padding: 0 1% 0 0;
   line-height: 1;
+  @media (max-width: 800px) {
+    margin: 2% 0;
+  }
 `;
 export const TitleTwo = styled.h2`
   font-size: clamp(13px, 1.15vw, 22px);
@@ -148,6 +151,9 @@ export const SBTxt = styled.span`
 export const MITxt = styled.p`
   font-family: "PMI";
   opacity: 0.68;
+  @media (max-width: 800px) {
+    margin: 2% 0;
+  }
 `;
 export const MITxt1 = styled.p`
   font-family: "PMI";

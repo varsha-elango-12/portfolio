@@ -38,18 +38,18 @@ function Landing(props) {
     }
   };
   useEffect(() => {
-    if (window.innerWidth < 800) {
-      setcurrentFaceIcon(true);
-      setcurrentGirlIcon(true);
-      setcurrentMailIcon(true);
-      setcurrentStarIcon(true);
-    } else {
-      // console.log(window.innerWidth, window.innerHeight);
-      const ch = setInterval(() => {
-        changeImgIndex();
-      }, 1000);
-      return () => clearInterval(ch);
-    }
+    // if (window.innerWidth < 800) {
+    //   setcurrentFaceIcon(true);
+    //   setcurrentGirlIcon(true);
+    //   setcurrentMailIcon(true);
+    //   setcurrentStarIcon(true);
+    // } else {
+    // console.log(window.innerWidth, window.innerHeight);
+    const ch = setInterval(() => {
+      changeImgIndex();
+    }, 1000);
+    return () => clearInterval(ch);
+    // }
   }, [imgIndex]);
 
   const container = {
@@ -66,7 +66,7 @@ function Landing(props) {
     <LandingContainer>
       <LRowContainer>
         <ImgContainer>
-          <Link to="/performative-design">
+          <Link to="/performative-design" className="menu-one">
             <MenuImg
               src={currentFaceIcon ? FACE_ICONS[5] : FACE_ICONS[imgIndex]}
               onMouseEnter={() => {
@@ -81,7 +81,13 @@ function Landing(props) {
           <motion.div
             className="menu-one-txt"
             initial="hidden"
-            animate={currentFaceIcon ? "visible" : "hidden"}
+            animate={
+              window.innerWidth < 800
+                ? "visible"
+                : currentFaceIcon
+                ? "visible"
+                : "hidden"
+            }
             variants={container}
           >
             <AnimatedTxt
@@ -90,8 +96,8 @@ function Landing(props) {
             />
           </motion.div>
         </ImgContainer>
-        <ImgContainer className="mt-13">
-          <Link to="/user-experience-design">
+        <ImgContainer className="mt-13 menu-two-img">
+          <Link to="/user-experience-design" className="menu-two">
             <GirlImg
               src={currentGirlIcon ? GIRL_ICONS[5] : GIRL_ICONS[imgIndex]}
               onMouseEnter={() => {
@@ -105,7 +111,13 @@ function Landing(props) {
           <motion.div
             className="menu-two-txt"
             initial="hidden"
-            animate={currentGirlIcon ? "visible" : "hidden"}
+            animate={
+              window.innerWidth < 800
+                ? "visible"
+                : currentGirlIcon
+                ? "visible"
+                : "hidden"
+            }
             variants={container}
           >
             <AnimatedTxt
@@ -116,8 +128,8 @@ function Landing(props) {
         </ImgContainer>
       </LRowContainer>
       <LRowContainer>
-        <ImgContainer>
-          <Link to="/my-journey" className="secrow-link">
+        <ImgContainer className="menu-three-img">
+          <Link to="/my-journey" className="secrow-link menu-three">
             <StarImg
               src={currentStarIcon ? STAR_ICONS[5] : STAR_ICONS[imgIndex]}
               onMouseEnter={() => {
@@ -132,7 +144,13 @@ function Landing(props) {
           <motion.div
             className="menu-three-txt"
             initial="hidden"
-            animate={currentStarIcon ? "visible" : "hidden"}
+            animate={
+              window.innerWidth < 800
+                ? "visible"
+                : currentStarIcon
+                ? "visible"
+                : "hidden"
+            }
             variants={container}
           >
             <AnimatedTxt
@@ -141,8 +159,8 @@ function Landing(props) {
             />
           </motion.div>
         </ImgContainer>
-        <ImgContainer>
-          <Link to="/connect" className="connect-link">
+        <ImgContainer className="menu-four-img">
+          <Link to="/connect" className="connect-link menu-four">
             <MailImg
               src={currentMailIcon ? MAIL_ICONS[5] : MAIL_ICONS[imgIndex]}
               // src={
@@ -161,7 +179,13 @@ function Landing(props) {
           <motion.div
             className="menu-four-txt"
             initial="hidden"
-            animate={currentMailIcon ? "visible" : "hidden"}
+            animate={
+              window.innerWidth < 800
+                ? "visible"
+                : currentMailIcon
+                ? "visible"
+                : "hidden"
+            }
             variants={container}
           >
             <AnimatedTxt

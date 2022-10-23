@@ -10,7 +10,7 @@ export const SideNavMain = styled.div`
 
   @media (max-width: 800px) {
     width: 100%;
-    height: 100px;
+    height: 130px;
   }
 `;
 
@@ -36,7 +36,7 @@ export const SideCenterContainer = styled.div`
   @media (max-width: 800px) {
     padding: 10px;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     &:nth-child(2) {
       width: 60%;
     }
@@ -46,7 +46,8 @@ export const SideLogo = styled.img`
   width: 8vw;
   @media (max-width: 800px) {
     height: auto;
-    width: 12vw;
+    width: 18vw;
+    padding-left: 10px;
   }
 `;
 export const SideBottomText = styled.p`
@@ -57,8 +58,12 @@ export const SideBottomText = styled.p`
   opacity: 1;
   font-family: "PSBI";
   @media (max-width: 800px) {
-    width: 60%;
-    font-size: clamp(8px, 1.1vw, 24px);
+    width: 70%;
+    font-size: clamp(10px, 1.1vw, 24px);
+    &.full-w {
+      width: 80%;
+      margin-left: auto;
+    }
   }
 `;
 export const PEBI = styled.span`
@@ -83,6 +88,13 @@ export const SideBottomImg = styled.img`
   @media (max-width: 800px) {
     margin-bottom: 0;
     margin-right: 10px;
+    width: 8.45vw;
+    &.grl-img {
+      margin-bottom: auto;
+    }
+    &.connect-img {
+      width: 10.45vw;
+    }
   }
 `;
 export const ProjNavCont = styled.div`

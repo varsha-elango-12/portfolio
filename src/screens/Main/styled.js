@@ -19,6 +19,8 @@ export const ContentContainer = styled.div`
   @media (max-width: 800px) {
     width: 100%;
     left: 0;
-    top: 100px;
+    top: 130px;
+    min-height: -webkit-fill-available;
+    display: flex;
   }
 `;

@@ -71,6 +71,7 @@ function SideMenu() {
         <SideCenterContainer>
           {locArr[1] === "portfolio" && (
             <SideBottomText
+              className="full-w"
               data-aos="fade-up"
               data-aos-duration="800"
               data-aos-anchor-placement="top-bottom"
@@ -127,7 +128,7 @@ function SideMenu() {
           {locArr[1] === "user-experience-design" && (
             <Link to="/user-experience-design">
               <SideBottomImg
-                className="grl-img hcl"
+                className="grl-img hcl connect-img"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-anchor-placement="top-bottom"
@@ -169,6 +170,7 @@ function SideMenu() {
           {/* my journey */}
           {locArr[1] === "my-journey" && (
             <SideBottomImg
+              className="connect-img"
               data-aos="fade-up"
               data-aos-duration="800"
               data-aos-anchor-placement="top-bottom"
@@ -189,6 +191,7 @@ function SideMenu() {
           {/* connect */}
           {locArr[1] === "connect" && (
             <SideBottomImg
+              className="connect-img"
               data-aos="fade-up"
               data-aos-duration="800"
               data-aos-anchor-placement="top-bottom"
