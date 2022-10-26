@@ -13,7 +13,7 @@ export const BlackBg = styled.div`
   h2 {
     font-family: "PSB";
     color: ${COLORS.TEXT_COLOR[900]};
-    font-size: clamp(12px, 1.4vw, 26px);
+    font-size: clamp(14px, 1.4vw, 26px);
   }
   @media (max-width: 800px) {
     min-height: 100vh;
@@ -23,7 +23,7 @@ export const BlackBg = styled.div`
 
 export const MI = styled.p`
   font-family: "PMI";
-  font-size: clamp(9px, 0.84vw, 24px);
+  font-size: clamp(11px, 0.84vw, 24px);
   color: ${COLORS.TEXT_COLOR[200]};
   text-align: center;
   margin: 20px 0;
@@ -52,7 +52,7 @@ export const MJBody = styled(commonGrid)`
   margin: 20px 0;
   p {
     font-family: "PR";
-    font-size: clamp(8px, 0.84vw, 24px);
+    font-size: clamp(10px, 0.84vw, 24px);
     text-align: center;
     color: ${COLORS.TEXT_COLOR[150]};
     &.pli {

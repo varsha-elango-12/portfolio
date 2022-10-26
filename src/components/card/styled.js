@@ -17,7 +17,7 @@ export const CardImgCont = styled.div`
 
 export const CardTitle = styled.h3`
   font-family: "PB";
-  font-size: clamp(10px, 0.9vw, 24px);
+  font-size: clamp(13px, 0.9vw, 24px);
   color: ${COLORS.TEXT_COLOR[1000]};
   transition: all ease 0.3s;
 `;
@@ -25,7 +25,7 @@ export const CardTitle = styled.h3`
 export const CardDesc = styled.p`
   font-family: "PR";
   margin-top: 5px;
-  font-size: clamp(10px, 0.9vw, 24px);
+  font-size: clamp(13px, 0.9vw, 24px);
 
   color: ${COLORS.TEXT_COLOR[1000]};
   transition: all ease 0.3s;

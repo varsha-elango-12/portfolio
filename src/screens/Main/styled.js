@@ -12,7 +12,7 @@ export const MainBg = styled.div`
 `;
 
 export const ContentContainer = styled.div`
-  width: 85%;
+  width: 83.073%;
   overflow: auto;
   position: absolute;
   left: 16.927%;
@@ -22,5 +22,6 @@ export const ContentContainer = styled.div`
     top: 130px;
     min-height: -webkit-fill-available;
     display: flex;
+    height: auto;
   }
 `;

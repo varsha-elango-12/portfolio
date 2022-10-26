@@ -2,7 +2,7 @@ import styled, { keyframes } from "styled-components";
 import { COLORS } from "../../assets/styles/constant";
 
 export const LandingContainer = styled.div`
-  padding: 5%;
+  padding: 5% 5% 0;
   background-color: ${COLORS.PRIMARY[1000]};
   @media (max-width: 800px) {
     width: 100%;
@@ -77,12 +77,36 @@ export const ImgContainer = styled.div`
     height: 100%;
     display: flex;
   }
+  .icon-link {
+    width: 200px;
+    height: 70%;
+    background: transparent;
+    position: absolute;
+  }
 
+  .cv-icon {
+    right: 0;
+  }
+  .mail-icon {
+    right: 0;
+  }
   @media (max-width: 800px) {
     width: 100%;
     height: 20vh;
     margin: 3% 0;
     flex-direction: column;
+    .icon-link {
+      width: 130px;
+      right: 0;
+      height: 100%;
+    }
+    .cv-icon {
+      left: 0;
+      top: 0;
+    }
+    .face-icon {
+      left: 0;
+    }
 
     a {
       text-align: center;

@@ -61,7 +61,7 @@ function AnimatedTxt(props) {
                       display: "inline-block",
                       color: "#F24976",
                       fontFamily: "PB",
-                      fontSize: "clamp(11px, 1.1vw, 20px)",
+                      fontSize: "clamp(12px, 1.1vw, 20px)",
                     }}
                     variants={item}
                   >

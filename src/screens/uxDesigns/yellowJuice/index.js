@@ -47,18 +47,18 @@ function YellowJuice() {
       <AnimateSharedLayout type="crossfade">
         <SingleProjectContainer>
           <FlexRowContainer data-aos="fade-up">
-            <ProjTitle style={{ color: COLORS.TEXT_COLOR[400] }}>
+            <ProjTitle style={{ color: COLORS.TEXT_COLOR[100] }}>
               2. The Yellow Juice
             </ProjTitle>
             <FlexThree className="top-cont">
               <FlexCol>
-                <ProjDesc style={{ color: COLORS.TEXT_COLOR[400] }}>
+                <ProjDesc style={{ color: COLORS.TEXT_COLOR[100] }}>
                   Design a <BoldITxt>digital/physical marketplace</BoldITxt> for
                   the buying and selling of{" "}
                   <BoldITxt>human bodily fluids</BoldITxt> that prioritises
                   trust.
                 </ProjDesc>
-                <MITxt style={{ color: COLORS.TEXT_COLOR[400] }}>
+                <MITxt style={{ color: COLORS.TEXT_COLOR[100] }}>
                   MA UX_ 7 weeks_ Group Project_ 2022 <br />
                   Teammates: Ramya, Amber, Boxun
                 </MITxt>
@@ -869,7 +869,7 @@ function YellowJuice() {
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowfullscreen="true"
                   />
                   <ProjDescSub>Bag for the container</ProjDescSub>
                 </div>
@@ -933,7 +933,7 @@ function YellowJuice() {
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowfullscreen="true"
             />
             <VideoContSubTxt>The Yellow Juice film</VideoContSubTxt>
           </VideoCont>

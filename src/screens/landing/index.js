@@ -66,17 +66,20 @@ function Landing(props) {
     <LandingContainer>
       <LRowContainer>
         <ImgContainer>
-          <Link to="/performative-design" className="menu-one">
-            <MenuImg
-              src={currentFaceIcon ? FACE_ICONS[5] : FACE_ICONS[imgIndex]}
-              onMouseEnter={() => {
-                setcurrentFaceIcon(true);
-              }}
-              onMouseLeave={() => {
-                setcurrentFaceIcon(false);
-              }}
-            />
-          </Link>
+          <Link
+            to="/performative-design"
+            className="menu-one icon-link face-icon"
+            onMouseEnter={() => {
+              setcurrentFaceIcon(true);
+            }}
+            onMouseLeave={() => {
+              setcurrentFaceIcon(false);
+            }}
+          ></Link>
+          <MenuImg
+            className="menu-one"
+            src={currentFaceIcon ? FACE_ICONS[5] : FACE_ICONS[imgIndex]}
+          />
 
           <motion.div
             className="menu-one-txt"
@@ -97,17 +100,20 @@ function Landing(props) {
           </motion.div>
         </ImgContainer>
         <ImgContainer className="mt-13 menu-two-img">
-          <Link to="/user-experience-design" className="menu-two">
-            <GirlImg
-              src={currentGirlIcon ? GIRL_ICONS[5] : GIRL_ICONS[imgIndex]}
-              onMouseEnter={() => {
-                setcurrentGirlIcon(true);
-              }}
-              onMouseLeave={() => {
-                setcurrentGirlIcon(false);
-              }}
-            />
-          </Link>
+          <Link
+            className="menu-two icon-link"
+            to="/user-experience-design"
+            onMouseEnter={() => {
+              setcurrentGirlIcon(true);
+            }}
+            onMouseLeave={() => {
+              setcurrentGirlIcon(false);
+            }}
+          ></Link>
+          <GirlImg
+            className="menu-two"
+            src={currentGirlIcon ? GIRL_ICONS[5] : GIRL_ICONS[imgIndex]}
+          />
           <motion.div
             className="menu-two-txt"
             initial="hidden"
@@ -129,17 +135,20 @@ function Landing(props) {
       </LRowContainer>
       <LRowContainer>
         <ImgContainer className="menu-three-img">
-          <Link to="/my-journey" className="secrow-link menu-three">
-            <StarImg
-              src={currentStarIcon ? STAR_ICONS[5] : STAR_ICONS[imgIndex]}
-              onMouseEnter={() => {
-                setcurrentStarIcon(true);
-              }}
-              onMouseLeave={() => {
-                setcurrentStarIcon(false);
-              }}
-            />
-          </Link>
+          <Link
+            to="/my-journey"
+            className="secrow-link menu-three icon-link cv-icon"
+            onMouseEnter={() => {
+              setcurrentStarIcon(true);
+            }}
+            onMouseLeave={() => {
+              setcurrentStarIcon(false);
+            }}
+          ></Link>
+          <StarImg
+            className="menu-three"
+            src={currentStarIcon ? STAR_ICONS[5] : STAR_ICONS[imgIndex]}
+          />
 
           <motion.div
             className="menu-three-txt"
@@ -160,22 +169,20 @@ function Landing(props) {
           </motion.div>
         </ImgContainer>
         <ImgContainer className="menu-four-img">
-          <Link to="/connect" className="connect-link menu-four">
-            <MailImg
-              src={currentMailIcon ? MAIL_ICONS[5] : MAIL_ICONS[imgIndex]}
-              // src={
-              //   currentMailIcon
-              //     ? require("../../assets/images/active-mail.png")
-              //     : require("../../assets/images/mail.png")
-              // }
-              onMouseEnter={() => {
-                setcurrentMailIcon(true);
-              }}
-              onMouseLeave={() => {
-                setcurrentMailIcon(false);
-              }}
-            />
-          </Link>
+          <Link
+            to="/connect"
+            className="connect-link menu-four icon-link mail-icon"
+            onMouseEnter={() => {
+              setcurrentMailIcon(true);
+            }}
+            onMouseLeave={() => {
+              setcurrentMailIcon(false);
+            }}
+          ></Link>
+          <MailImg
+            className="menu-four"
+            src={currentMailIcon ? MAIL_ICONS[5] : MAIL_ICONS[imgIndex]}
+          />
           <motion.div
             className="menu-four-txt"
             initial="hidden"

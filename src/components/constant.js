@@ -6,7 +6,7 @@ export const MainMenuText = {
     text: "User experience design",
   },
   menuThree: {
-    text: "My journey or CV",
+    text: "My journey/ CV",
   },
   menuFour: {
     text: "Let's connect",

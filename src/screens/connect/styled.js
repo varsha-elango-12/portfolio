@@ -70,7 +70,7 @@ export const ConnectMain = styled.div`
     right: 15%;
     width: 17%;
     font-family: "PI";
-    font-size: clamp(10.5px, 1.06vw, 15px);
+    font-size: clamp(12px, 1.06vw, 15px);
     color: ${COLORS.TEXT_COLOR[900]};
   }
 

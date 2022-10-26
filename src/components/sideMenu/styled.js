@@ -46,20 +46,20 @@ export const SideLogo = styled.img`
   width: 8vw;
   @media (max-width: 800px) {
     height: auto;
-    width: 18vw;
+    width: 21vw;
     padding-left: 10px;
   }
 `;
 export const SideBottomText = styled.p`
   text-align: center;
-  font-size: clamp(10px, 1.1vw, 24px);
+  font-size: clamp(12px, 1.1vw, 24px);
   letter-spacing: 0px;
   color: #f24976;
   opacity: 1;
-  font-family: "PSBI";
+  font-family: "PMI";
   @media (max-width: 800px) {
     width: 70%;
-    font-size: clamp(10px, 1.1vw, 24px);
+    font-size: clamp(12px, 1.1vw, 24px);
     &.full-w {
       width: 80%;
       margin-left: auto;

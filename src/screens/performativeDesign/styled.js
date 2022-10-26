@@ -61,7 +61,7 @@ export const FlexRowContainer = styled.div`
 `;
 
 export const ProjTitle = styled.h1`
-  font-size: clamp(15px, 1.5vw, 28px);
+  font-size: clamp(17px, 1.5vw, 28px);
   font-family: "PEB";
   flex: 1;
   padding: 0 1% 0 0;
@@ -71,21 +71,21 @@ export const ProjTitle = styled.h1`
   }
 `;
 export const TitleTwo = styled.h2`
-  font-size: clamp(13px, 1.15vw, 22px);
+  font-size: clamp(15px, 1.15vw, 22px);
   color: ${COLORS.TEXT_COLOR[500]};
   font-family: "PEB";
   margin: 4% 0;
   text-transform: uppercase;
 `;
 export const TitleThree = styled.h2`
-  font-size: clamp(12px, 1.05vw, 20px);
+  font-size: clamp(16px, 1.05vw, 20px);
   color: ${COLORS.TEXT_COLOR[500]};
   font-family: "PB";
   @media (max-width: 800px) {
   }
 `;
 export const SubTitleThree = styled.h3`
-  font-size: clamp(12px, 0.95vw, 18px);
+  font-size: clamp(14px, 0.95vw, 18px);
   color: ${COLORS.TEXT_COLOR[500]};
   font-family: "PR";
   font-weight: normal;
@@ -95,7 +95,7 @@ export const SubTitleThree = styled.h3`
 `;
 
 export const ProjDesc = styled.p`
-  font-size: clamp(10px, 0.84vw, 24px);
+  font-size: clamp(14px, 0.84vw, 24px);
   color: ${COLORS.TEXT_COLOR[500]};
   font-family: "PM";
   margin-bottom: 4%;
@@ -105,7 +105,7 @@ export const ProjDesc = styled.p`
 `;
 export const ProjDescSub = styled(ProjDesc)`
   margin-top: 10px;
-  font-size: clamp(10px, 0.84vw, 24px);
+  font-size: clamp(12px, 0.84vw, 24px);
   &.float-txt {
     position: absolute;
     left: 0;
@@ -133,7 +133,7 @@ export const FlexCol = styled.div`
   justify-content: space-between;
   padding: 0 8% 0 0;
   & p {
-    font-size: clamp(10px, 0.84vw, 24px);
+    font-size: clamp(12px, 0.84vw, 24px);
   }
   @media (max-width: 800px) {
   }
@@ -216,7 +216,7 @@ export const MediumImgTop = styled.img`
 `;
 
 export const SubDesc = styled(ProjDesc)`
-  font-size: clamp(10px, 0.84vw, 24px);
+  font-size: clamp(12px, 0.84vw, 24px);
   margin-top: 2%;
   @media (max-width: 800px) {
   }
@@ -232,7 +232,7 @@ export const ListImg = styled.img`
     transform: scale(1.05);
   }
   &.bottom-img{
-    height: auto;
+    height: 100%;
     width: 100%;
   }
   &.cs-grid-img{
@@ -311,6 +311,9 @@ export const ImgContainer = styled.div`
   &.grid-1-2-1-1 {
     grid-template-columns: 1fr 2fr 1fr 1fr;
     grid-template-rows: ;
+    @media (max-width: 800px) {
+      grid-template-columns: 1fr 1fr;
+    }
   }
   &.grid-1-1-1-05 {
     grid-template-columns: 1fr 1fr 1fr 0.5fr;
@@ -338,7 +341,7 @@ export const ImgContainer = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1%;
     ${ListImg} {
-      height: auto;
+      height: 100%;
       width: 100%;
       &:nth-child(4) {
         grid-row: 2;
@@ -386,7 +389,7 @@ export const ImgContainerTwo = styled.div`
       grid-template-columns: 1fr;
       div {
         &:nth-child(3) {
-          width: 100%;
+          width: 100% !important;
           grid-column: 1;
         }
       }
@@ -408,7 +411,7 @@ export const VideoCont = styled.div`
 `;
 
 export const VideoContSubTxt = styled.p`
-  font-size: clamp(10px, 0.84vw, 24px);
+  font-size: clamp(12px, 0.84vw, 24px);
   color: ${COLORS.TEXT_COLOR[500]};
   font-family: "PM";
   margin: 3% auto;
