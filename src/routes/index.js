@@ -14,7 +14,7 @@ import YellowJuice from "../screens/uxDesigns/yellowJuice";
 export default function MainRoute() {
   return (
     <Routes>
-      <Route path="/portfolio" element={<Landing />} />
+      <Route path="/" element={<Landing />} />
       <Route path="/performative-design" element={<PerformativeDesign />} />
       <Route
         path="/performative-design/reincarnation"

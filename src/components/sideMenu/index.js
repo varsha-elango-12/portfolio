@@ -63,13 +63,13 @@ function SideMenu() {
     <SideNavMain>
       <SideNavContainer>
         <SideCenterContainer>
-          <Link to="/portfolio" style={{ textAlign: "center" }}>
+          <Link to="/" style={{ textAlign: "center" }}>
             <SideLogo src={require("../../assets/images/logo.png")} />
           </Link>
         </SideCenterContainer>
 
         <SideCenterContainer>
-          {locArr[1] === "portfolio" && (
+          {locArr[1] === "" && (
             <SideBottomText
               className="full-w"
               data-aos="fade-up"
