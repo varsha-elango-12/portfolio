@@ -42,7 +42,7 @@ export const MJHead = styled(commonGrid)`
   @media (max-width: 800px) {
     position: fixed;
     top: 130px;
-    background: black;
+    background: ${COLORS.PRIMARY[1000]};
   }
 `;
 export const MJBody = styled(commonGrid)`

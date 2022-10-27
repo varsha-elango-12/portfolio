@@ -132,9 +132,7 @@ export const FlexCol = styled.div`
   flex-direction: column;
   justify-content: space-between;
   padding: 0 8% 0 0;
-  & p {
-    font-size: clamp(12px, 0.84vw, 24px);
-  }
+
   @media (max-width: 800px) {
   }
 `;

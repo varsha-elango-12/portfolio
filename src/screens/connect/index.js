@@ -28,10 +28,10 @@ function Connect() {
           <p data-aos="fade-up" data-aos-delay="500">
             <a
               className="a2"
-              href="https://varshaelango.com/ux_studio_practice.html"
+              href="https://blogs.varshaelango.com"
               target="_blank"
             >
-              https://varshaelango.com/ux_studio_practice.html
+              https://blogs.varshaelango.com
             </a>
           </p>
           <br />
