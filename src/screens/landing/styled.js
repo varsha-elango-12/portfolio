@@ -8,6 +8,9 @@ export const LandingContainer = styled.div`
     width: 100%;
     margin: auto;
   }
+  @media (max-width: 800px) and (min-height: 720px) {
+    padding-top: 20%;
+  }
 `;
 export const LRowContainer = styled.div`
   display: flex;

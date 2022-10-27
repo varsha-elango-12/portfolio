@@ -16,12 +16,11 @@ export const ContentContainer = styled.div`
   overflow: auto;
   position: absolute;
   left: 16.927%;
+
   @media (max-width: 800px) {
     width: 100%;
     left: 0;
     top: 130px;
-    min-height: -webkit-fill-available;
     display: flex;
-    height: auto;
   }
 `;
