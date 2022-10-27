@@ -327,7 +327,7 @@ function FormlessEmotion() {
                   //   {returnImgSubFunc(ind)}
                   // </motion.div>
                   <AnimatedImageContainer
-                    contStyle={{ position: "relative" }}
+                    contStyle={{ position: "relative", overflow: "visible" }}
                     lid={ind}
                     imgSrc={require(`../../../assets/images/ProjectTypes/theFormlessEmotions/img${ind}.png`)}
                     setId={() => {

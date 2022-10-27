@@ -149,6 +149,8 @@ export const SBTxt = styled.span`
 export const MITxt = styled.p`
   font-family: "PMI";
   opacity: 0.68;
+  font-size: clamp(12px, 0.84vw, 24px);
+
   @media (max-width: 800px) {
     margin: 2% 0;
   }

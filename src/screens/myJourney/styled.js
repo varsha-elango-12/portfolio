@@ -14,6 +14,7 @@ export const BlackBg = styled.div`
     font-family: "PSB";
     color: ${COLORS.TEXT_COLOR[900]};
     font-size: clamp(14px, 1.4vw, 26px);
+    text-align: center;
   }
   @media (max-width: 800px) {
     min-height: 100vh;
